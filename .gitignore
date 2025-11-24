@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+agent/venv/
+agent/.env
+
+# Go
+backend/bin/
+backend/dist/
+backend/*.exe
+backend/*.app
+
+# Node/Vue
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Large AI Models (重要！防止上传几百MB的模型文件)
+*.onnx
+*.pt
+*.bin
