@@ -1,0 +1,4 @@
+PyQt6
+pystray
+pix2text
+requests
